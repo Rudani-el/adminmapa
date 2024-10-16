@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="480dp"
+        android:src="@drawable/dirnealogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="320dp"
+        android:text="Usuario : "
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="239dp"
+        android:text="Clave : "
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/edusuario"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="314dp"
+        android:hint="usuario"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edclave"
+        android:layout_width="154dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="235dp"
+        android:hint="clase"
+        android:inputType="textPassword"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnabrirmapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="133dp"
+        android:text="Ver mapa"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="314dp"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="0dp"
+        android:text="Created by Rb with @infomusic_jd on Instagram." />
+
+</RelativeLayout>
+
+<!--android:onClick="mandarmapa"-->
